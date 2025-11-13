@@ -1,0 +1,17 @@
+                      precision    recall  f1-score   support
+
+    Best-neutral.jpg       0.00      0.00      0.00         3
+    Best-smiling.jpg       0.20      0.33      0.25         3
+  Best-surprised.jpg       1.00      1.00      1.00         3
+  Carine-neutral.jpg       1.00      1.00      1.00         3
+  Carine-smiling.jpg       1.00      1.00      1.00         3
+Carine-surprised.jpg       1.00      1.00      1.00         3
+   David-neutral.jpg       1.00      0.67      0.80         3
+   David-smiling.jpg       1.00      1.00      1.00         3
+    Mike-neutral.jpg       0.67      0.67      0.67         3
+    Mike-smiling.jpg       0.50      0.67      0.57         3
+  Mike-surprised.jpg       1.00      0.67      0.80         3
+
+            accuracy                           0.73        33
+           macro avg       0.76      0.73      0.74        33
+        weighted avg       0.76      0.73      0.74        33
