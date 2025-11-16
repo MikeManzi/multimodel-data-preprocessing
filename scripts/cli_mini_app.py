@@ -38,7 +38,7 @@ def run():
 
         face_conf = predict_face(img_feats)
 
-        if face_conf < 20:
+        if face_conf < 50:
             print(f"ACCESS DENIED: Face not recognized ({face_conf:.2f}%)")
             continue
 
@@ -68,7 +68,7 @@ def run():
             print(f"[!] Failed to load audio: {type(e).__name__} - {str(e) or 'No details provided'}")
             continue
 
-        if voice_conf < 50:
+        if voice_conf < 20:
             print(f"ACCESS DENIED: Voice not verified ({voice_conf:.2f}%). Try again.")
             continue
 
