@@ -1,0 +1,7 @@
+numpy
+librosa
+Pillow
+scikit-learn
+joblib
+opencv-python
+pandas
